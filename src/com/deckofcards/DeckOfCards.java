@@ -9,5 +9,6 @@ public class DeckOfCards {
 		cardsPlay.distributeCards();
         cardsPlay.printCardList();
         cardsPlay.shuffleCards() ;
+        cardsPlay.setPlayerSequence();
 	}
 }
