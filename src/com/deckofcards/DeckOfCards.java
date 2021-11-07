@@ -8,5 +8,6 @@ public class DeckOfCards {
 		cardsPlay.addPlayer();
 		cardsPlay.distributeCards();
         cardsPlay.printCardList();
+        cardsPlay.shuffleCards() ;
 	}
 }
