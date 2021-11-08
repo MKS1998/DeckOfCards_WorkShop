@@ -7,8 +7,8 @@ public class DeckOfCards {
 		cardsPlay.generateCards();
 		cardsPlay.addPlayer();
 		cardsPlay.distributeCards();
-        cardsPlay.printCardList();
         cardsPlay.shuffleCards() ;
         cardsPlay.setPlayerSequence();
+        cardsPlay.printCardList();
 	}
 }
